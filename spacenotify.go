@@ -12,8 +12,7 @@ import (
 	"github.com/guelfey/go.dbus"
 )
 
-//var API = "https://api.openlab-augsburg.de/13"
-var API = "http://localhost:5000"
+var API = "https://api.openlab-augsburg.de/13"
 
 func callAPI() (bool, time.Time, error) {
 
